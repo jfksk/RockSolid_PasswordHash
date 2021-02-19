@@ -52,6 +52,9 @@
         <events>
             <api_user_authenticated>
                 <observers>
+                    <api_password_upgrade>
+                        <type>disabled</type>
+                    </api_password_upgrade>
                     <rs_api_password_upgrade>
                         <type>singleton</type>
                         <class>RockSolid_PasswordHash_Model_Observer</class>
