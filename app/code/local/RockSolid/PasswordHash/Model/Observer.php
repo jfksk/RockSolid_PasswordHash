@@ -66,7 +66,7 @@ class RockSolid_PasswordHash_Model_Observer
     }
 
     /**
-     * Upgrade customer password hash when customer has logged in
+     * Upgrade customer password hash, if needed, when a customer has logged in
      *
      * @param Varien_Event_Observer $observer
      */
